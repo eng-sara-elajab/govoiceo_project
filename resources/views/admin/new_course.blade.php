@@ -12,12 +12,12 @@
         <meta name="keywords" content="{{$website_data->keywords}}"/>
 
 		<style type="text/css" media="all">
-			@import "{{asset('css/info.css')}}";
-			@import "{{asset('css/main.css')}}";
-			@import "{{asset('css/widgEditor.css')}}";
+			@import "{{secure_asset('css/info.css')}}";
+			@import "{{secure_asset('css/main.css')}}";
+			@import "{{secure_asset('css/widgEditor.css')}}";
 		</style>
 
-		<script type="text/javascript" src="{{asset('scripts/widgEditor.js')}}"></script>
+		<script type="text/javascript" src="{{secure_asset('scripts/widgEditor.js')}}"></script>
 	</head>
 	<body>
         @extends('layouts.admin')
@@ -62,10 +62,10 @@
                 <div class="row form-group">
                     <div class="col-md-12">
                         <div id="sample" style="background-color: white; opacity: 0.9; width: 100%">
-                            <script src="{{asset('js/nicEdit.js')}}" type="text/javascript"></script>
+                            <script src="{{secure_asset('js/nicEdit.js')}}" type="text/javascript"></script>
                             <script type="text/javascript">
                             bkLib.onDomLoaded(function() {
-                            	new nicEditor({iconsPath : '{{asset("images/nicEditorIcons.gif")}}'}).panelInstance('area3');
+                            	new nicEditor({iconsPath : '{{secure_asset("images/nicEditorIcons.gif")}}'}).panelInstance('area3');
                             });
                             </script>
                             <textarea id="area3" name="introduction"></textarea>
