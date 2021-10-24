@@ -29,14 +29,14 @@
 
         <title>Learning Platform</title>
 
-        <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/bootstrap.css')}}">
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
-        <link rel="stylesheet" href="{{asset('css/animate.css')}}">
-        <link rel="stylesheet" href="{{asset('css/icomoon.css')}}">
-        <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
-        <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
-        <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
-        <link rel="stylesheet" href="{{asset('css/style.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/animate.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/icomoon.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/magnific-popup.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/owl.carousel.min.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/owl.theme.default.min.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/style.css')}}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
@@ -44,17 +44,17 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
-        <script src="{{asset('js/respond.min.js')}}"></script>
-        <script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
-        <script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
-        <script src="{{asset('js/jquery.stellar.min.js')}}"></script>
-        <script src="{{asset('js/owl.carousel.min.js')}}"></script>
-        <script src="{{asset('js/jquery.countTo.js')}}"></script>
-        <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
-        <script src="{{asset('js/magnific-popup-options.js')}}"></script>
-        <script src="{{asset('js/main.js')}}"></script>
-        <script src="{{asset('js/extention/choices.js')}}"></script>
+        <script src="{{secure_asset('js/modernizr-2.6.2.min.js')}}"></script>
+        <script src="{{secure_asset('js/respond.min.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.easing.1.3.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.waypoints.min.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.stellar.min.js')}}"></script>
+        <script src="{{secure_asset('js/owl.carousel.min.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.countTo.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.magnific-popup.min.js')}}"></script>
+        <script src="{{secure_asset('js/magnific-popup-options.js')}}"></script>
+        <script src="{{secure_asset('js/main.js')}}"></script>
+        <script src="{{secure_asset('js/extention/choices.js')}}"></script>
         <script>
             function openNav() {
                 document.getElementById("mySidenav").style.width = "300px";
@@ -97,7 +97,7 @@
     <style type="text/css" media="all">
         body {
             font-family: "Lato", sans-serif;
-            background-image: url({{asset('images/man_using_laptop.jpg')}});
+            background-image: url({{secure_asset('images/man_using_laptop.jpg')}});
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -405,7 +405,7 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="container-fluid">
                 <a href="#" style="text-align: center">
-                    <img src="{{asset('images/logos/'.$website_data->logo)}}" class="img-circle img-responsive" style="width: 30%; height: 10%; margin-left: 30%">
+                    <img src="{{secure_asset('images/logos/'.$website_data->logo)}}" class="img-circle img-responsive" style="width: 30%; height: 10%; margin-left: 30%">
                     <span class="brand-text font-weight-light" style="font-size: large">{{$website_data->name}}</span>
                 </a>
                 <hr style="color: #D3D3D3; width: 90%">
