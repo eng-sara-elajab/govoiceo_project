@@ -62,10 +62,10 @@
                 <div class="row form-group">
                     <div class="col-md-12">
                         <div id="sample" style="background-color: white; opacity: 0.9; width: 100%">
-                            <script src="{{secure_asset('js/nicEdit.js')}}" type="text/javascript"></script>
+                            <script src="{{asset('js/nicEdit.js')}}" type="text/javascript"></script>
                             <script type="text/javascript">
                             bkLib.onDomLoaded(function() {
-                            	new nicEditor({iconsPath : '{{secure_asset("images/nicEditorIcons.gif")}}'}).panelInstance('area3');
+                            	new nicEditor({iconsPath : '{{asset("images/nicEditorIcons.gif")}}'}).panelInstance('area3');
                             });
                             </script>
                             <textarea id="area3" name="introduction"></textarea>

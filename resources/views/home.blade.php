@@ -130,7 +130,7 @@
             color: #ffffff;
         }
     </style>
-    <body style="background-image:  url({{secure_asset('images/man_using_laptop.jpg')}});
+    <body style="background-image:  url({{asset('images/man_using_laptop.jpg')}});
             background-repeat: no-repeat; background-size: cover">
         <div style="text-align: right; margin-right: 7px">
             <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
@@ -155,7 +155,7 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="container-fluid">
                 <a href="#" style="text-align: center">
-                    <img src="{{secure_asset('/images/logos/'.$website_data->logo)}}" class="img-circle img-responsive" style="width: 30%; height: 5%; margin-left: 30%">
+                    <img src="{{asset('/images/logos/'.$website_data->logo)}}" class="img-circle img-responsive" style="width: 30%; height: 5%; margin-left: 30%">
                     <span class="brand-text font-weight-light" style="font-size: large">{{$website_data->name}}</span>
                 </a>
                 <hr style="color: #D3D3D3; width: 90%">
