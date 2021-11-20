@@ -221,7 +221,7 @@
                         <h3 style="font-weight: bold; margin-top: 3px"><i class="fa fa-circle nav-icon pull-right" style="color:orange"></i>بيانات الموقع &nbsp;</h3>
                     </a>
                 </div>
-                <hr style="color: #D3D3D3; width: 90%; margin-bottom: 0">
+                <hr style="color: #D3D3D3; width: 90%; margin-top: 195%">
                 <div class="nav-item">
                     <a href="{{ url('/logout') }}" class="btn btn-default btn-block" style="color: orange"><i class="fa fa-sign-out nav-icon" style="color: orange" aria-hidden="true"></i>&nbsp;تسجيل الخروج</a>
                 </div>
