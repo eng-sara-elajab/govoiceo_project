@@ -58,7 +58,7 @@
             text-align: right;
         }
     </style>
-    <body style="background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url({{secure_asset('images/man_using_laptop.jpg')}});
+    <body style="background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url({{asset('images/man_using_laptop.jpg')}});
             background-repeat: no-repeat; background-size: cover">
         <nav class="fh5co-nav" role="navigation">
             <div class="top">
