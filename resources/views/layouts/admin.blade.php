@@ -29,14 +29,14 @@
 
         <title>Learning Platform</title>
 
-        <link rel="stylesheet" href="{{secure_asset('css/bootstrap.css')}}">
+        <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
-        <link rel="stylesheet" href="{{secure_asset('css/animate.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('css/icomoon.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('css/magnific-popup.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('css/owl.carousel.min.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('css/owl.theme.default.min.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('css/style.css')}}">
+        <link rel="stylesheet" href="{{asset('css/animate.css')}}">
+        <link rel="stylesheet" href="{{asset('css/icomoon.css')}}">
+        <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
+        <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css/style.css')}}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
@@ -44,17 +44,17 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script src="{{secure_asset('js/modernizr-2.6.2.min.js')}}"></script>
-        <script src="{{secure_asset('js/respond.min.js')}}"></script>
-        <script src="{{secure_asset('js/jquery.easing.1.3.js')}}"></script>
-        <script src="{{secure_asset('js/jquery.waypoints.min.js')}}"></script>
-        <script src="{{secure_asset('js/jquery.stellar.min.js')}}"></script>
-        <script src="{{secure_asset('js/owl.carousel.min.js')}}"></script>
-        <script src="{{secure_asset('js/jquery.countTo.js')}}"></script>
-        <script src="{{secure_asset('js/jquery.magnific-popup.min.js')}}"></script>
-        <script src="{{secure_asset('js/magnific-popup-options.js')}}"></script>
-        <script src="{{secure_asset('js/main.js')}}"></script>
-        <script src="{{secure_asset('js/extention/choices.js')}}"></script>
+        <script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
+        <script src="{{asset('js/respond.min.js')}}"></script>
+        <script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
+        <script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
+        <script src="{{asset('js/jquery.stellar.min.js')}}"></script>
+        <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+        <script src="{{asset('js/jquery.countTo.js')}}"></script>
+        <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+        <script src="{{asset('js/magnific-popup-options.js')}}"></script>
+        <script src="{{asset('js/main.js')}}"></script>
+        <script src="{{asset('js/extention/choices.js')}}"></script>
         <script>
             function openNav() {
                 document.getElementById("mySidenav").style.width = "300px";
@@ -476,7 +476,7 @@
                         <h3 style="font-weight: bold; margin-top: 3px"><i class="fa fa-circle nav-icon pull-right" style="color:orange"></i>بيانات الموقع &nbsp;</h3>
                     </a>
                 </div>
-                <hr style="color: #D3D3D3; width: 90%; margin-top: 140%">
+                <hr style="color: #D3D3D3; width: 90%; margin-top: 210%">
                 <div class="nav-item">
                     <a href="{{ url('/logout') }}" class="btn btn-default btn-block" style="color: orange"><i class="fa fa-sign-out" style="color: orange" aria-hidden="true"></i>&nbsp;تسجيل الخروج</a>
                 </div>
