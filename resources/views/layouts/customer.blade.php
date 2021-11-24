@@ -91,8 +91,8 @@
                                 </div>
                                 <div class="col-md-7 text-right menu-1">
                                     <ul>
-                                        <li><a href="/about">عن الموقع</a></li>
                                         /* <li><a href="/contact">تواصل معنا</a></li> */
+                                        <li><a href="/about">عن الموقع</a></li>
                                         <li><a href="/courses">الكورسات</a></li>
                                         <li class="active"><a href="/">الصفحة الرئيسية</a></li>
                                         <li class="btn-cta"><a href="/login"><span>تسجيل الدخول</span></a></li>

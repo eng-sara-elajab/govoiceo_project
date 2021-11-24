@@ -108,11 +108,11 @@
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-4 text-right menu-1">
                                         <ul>
-                                            <li><a href="/about">عن الموقع</a></li>
+                                            <li class="active"><a href="/">الصفحة الرئيسية</a></li>
+                                            <li><a href="/courses">الكورسات</a></li>
                                             <li><a href="/request_service">طلب خدمة</a></li>
+                                            <li><a href="/about">عن الموقع</a></li>
                                             {{--<li><a href="/contact">تواصل معنا</a></li>--}}
-                                        <li><a href="/courses">الكورسات</a></li>
-                                        <li class="active"><a href="/">الصفحة الرئيسية</a></li>
                                             @if(Auth::user())
                                                 <!-- Notifications Dropdown Menu -->
                                                 <li class="nav-item dropdown">
@@ -270,26 +270,26 @@
         </div>
 
         <!-- jQuery -->
-        <script src="{{asset('js/jquery.min.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.min.js')}}"></script>
         <!-- jQuery Easing -->
-        <script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.easing.1.3.js')}}"></script>
         <!-- Bootstrap -->
-        <script src="{{asset('js/bootstrap.min.js')}}"></script>
+        <script src="{{secure_asset('js/bootstrap.min.js')}}"></script>
         <!-- Waypoints -->
-        <script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.waypoints.min.js')}}"></script>
         <!-- Stellar Parallax -->
-        <script src="{{asset('js/jquery.stellar.min.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.stellar.min.js')}}"></script>
         <!-- Carousel -->
-        <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+        <script src="{{secure_asset('js/owl.carousel.min.js')}}"></script>
         <!-- countTo -->
-        <script src="{{asset('js/jquery.countTo.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.countTo.js')}}"></script>
         <!-- Magnific Popup -->
-        <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
-        <script src="{{asset('js/magnific-popup-options.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.magnific-popup.min.js')}}"></script>
+        <script src="{{secure_asset('js/magnific-popup-options.js')}}"></script>
         <!-- Main -->
-        <script src="{{asset('js/main.js')}}"></script>
+        <script src="{{secure_asset('js/main.js')}}"></script>
 
-        <script src="{{asset('js/extention/choices.js')}}"></script>
+        <script src="{{secure_asset('js/extention/choices.js')}}"></script>
         <script>
             const choices = new Choices('[data-trigger]',
                 {
