@@ -25,27 +25,27 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 
         <!-- Animate.css -->
-        <link rel="stylesheet" href="{{asset('css/animate.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/animate.css')}}">
         <!-- Icomoon Icon Fonts-->
-        <link rel="stylesheet" href="{{asset('css/icomoon.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/icomoon.css')}}">
         <!-- Bootstrap  -->
-        <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/bootstrap.css')}}">
 
         <!-- Magnific Popup -->
-        <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/magnific-popup.css')}}">
 
         <!-- Owl Carousel  -->
-        <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
-        <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/owl.carousel.min.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/owl.theme.default.min.css')}}">
 
         <!-- Theme style  -->
-        <link rel="stylesheet" href="{{asset('css/style.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/style.css')}}">
 
         <!-- Modernizr JS -->
-        <script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
+        <script src="{{secure_asset('js/modernizr-2.6.2.min.js')}}"></script>
         <!-- FOR IE9 below -->
         <!--[if lt IE 9]>
-        <script src="{{asset('js/respond.min.js')}}"></script>
+        <script src="{{secure_asset('js/respond.min.js')}}"></script>
         <![endif]-->
 
     </head>
@@ -172,6 +172,7 @@
             </nav>
 
             <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url({{asset('images/man_using_laptop.jpg')}}); height: auto" data-stellar-background-ratio="0.5">
+		</div>
                 <div class="overlay"></div><br><br>
                 <div class="container">
                     <div class="row">

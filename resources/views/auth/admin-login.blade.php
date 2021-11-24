@@ -23,32 +23,32 @@
 
         <title>Learning Platform</title>
 
-        <link rel="stylesheet" href="{{secure_asset('css/bootstrap.css')}}">
+        <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="{{secure_asset('css/animate.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('css/icomoon.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('css/magnific-popup.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('css/owl.carousel.min.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('css/owl.theme.default.min.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('css/style.css')}}">
+        <link rel="stylesheet" href="{{asset('css/animate.css')}}">
+        <link rel="stylesheet" href="{{asset('css/icomoon.css')}}">
+        <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
+        <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script src="{{secure_asset('js/modernizr-2.6.2.min.js')}}"></script>
-        <script src="{{secure_asset('js/respond.min.js')}}"></script>
-        <script src="{{secure_asset('js/jquery.min.js')}}"></script>
-        <script src="{{secure_asset('js/jquery.easing.1.3.js')}}"></script>
-        <script src="{{secure_asset('js/bootstrap.min.js')}}"></script>
-        <script src="{{secure_asset('js/jquery.waypoints.min.js')}}"></script>
-        <script src="{{secure_asset('js/jquery.stellar.min.js')}}"></script>
-        <script src="{{secure_asset('js/owl.carousel.min.js')}}"></script>
-        <script src="{{secure_asset('js/jquery.countTo.js')}}"></script>
-        <script src="{{secure_asset('js/jquery.magnific-popup.min.js')}}"></script>
-        <script src="{{secure_asset('js/magnific-popup-options.js')}}"></script>
-        <script src="{{secure_asset('js/main.js')}}"></script>
-        <script src="{{secure_asset('js/extention/choices.js')}}"></script>
+        <script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
+        <script src="{{asset('js/respond.min.js')}}"></script>
+        <script src="{{asset('js/jquery.min.js')}}"></script>
+        <script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
+        <script src="{{asset('js/bootstrap.min.js')}}"></script>
+        <script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
+        <script src="{{asset('js/jquery.stellar.min.js')}}"></script>
+        <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+        <script src="{{asset('js/jquery.countTo.js')}}"></script>
+        <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+        <script src="{{asset('js/magnific-popup-options.js')}}"></script>
+        <script src="{{asset('js/main.js')}}"></script>
+        <script src="{{asset('js/extention/choices.js')}}"></script>
     </head>
     <style>
         body {

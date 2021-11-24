@@ -25,27 +25,27 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 
         <!-- Animate.css -->
-        <link rel="stylesheet" href="{{asset('css/animate.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/animate.css')}}">
         <!-- Icomoon Icon Fonts-->
-        <link rel="stylesheet" href="{{asset('css/icomoon.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/icomoon.css')}}">
         <!-- Bootstrap  -->
-        <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/bootstrap.css')}}">
 
         <!-- Magnific Popup -->
-        <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/magnific-popup.css')}}">
 
         <!-- Owl Carousel  -->
-        <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
-        <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/owl.carousel.min.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/owl.theme.default.min.css')}}">
 
         <!-- Theme style  -->
-        <link rel="stylesheet" href="{{asset('css/style.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/style.css')}}">
 
         <!-- Modernizr JS -->
-        <script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
+        <script src="{{secure_asset('js/modernizr-2.6.2.min.js')}}"></script>
         <!-- FOR IE9 below -->
         <!--[if lt IE 9]>
-        <script src="{{asset('js/respond.min.js')}}"></script>
+        <script src="{{secure_asset('js/respond.min.js')}}"></script>
         <![endif]-->
 
     </head>
@@ -260,26 +260,26 @@
         </div>
 
         <!-- jQuery -->
-        <script src="{{asset('js/jquery.min.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.min.js')}}"></script>
         <!-- jQuery Easing -->
-        <script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.easing.1.3.js')}}"></script>
         <!-- Bootstrap -->
-        <script src="{{asset('js/bootstrap.min.js')}}"></script>
+        <script src="{{secure_asset('js/bootstrap.min.js')}}"></script>
         <!-- Waypoints -->
-        <script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.waypoints.min.js')}}"></script>
         <!-- Stellar Parallax -->
-        <script src="{{asset('js/jquery.stellar.min.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.stellar.min.js')}}"></script>
         <!-- Carousel -->
-        <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+        <script src="{{secure_asset('js/owl.carousel.min.js')}}"></script>
         <!-- countTo -->
-        <script src="{{asset('js/jquery.countTo.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.countTo.js')}}"></script>
         <!-- Magnific Popup -->
-        <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
-        <script src="{{asset('js/magnific-popup-options.js')}}"></script>
+        <script src="{{secure_asset('js/jquery.magnific-popup.min.js')}}"></script>
+        <script src="{{secure_asset('js/magnific-popup-options.js')}}"></script>
         <!-- Main -->
-        <script src="{{asset('js/main.js')}}"></script>
+        <script src="{{secure_asset('js/main.js')}}"></script>
 
-        <script src="{{asset('js/extention/choices.js')}}"></script>
+        <script src="{{secure_asset('js/extention/choices.js')}}"></script>
         <script>
             const choices = new Choices('[data-trigger]',
                 {

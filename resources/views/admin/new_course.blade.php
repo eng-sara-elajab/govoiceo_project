@@ -12,12 +12,12 @@
         <meta name="keywords" content="{{$website_data->keywords}}"/>
 
 		<style type="text/css" media="all">
-			@import "{{secure_asset('css/info.css')}}";
-			@import "{{secure_asset('css/main.css')}}";
-			@import "{{secure_asset('css/widgEditor.css')}}";
+			@import "{{asset('css/info.css')}}";
+			@import "{{asset('css/main.css')}}";
+			@import "{{asset('css/widgEditor.css')}}";
 		</style>
 
-		<script type="text/javascript" src="{{secure_asset('scripts/widgEditor.js')}}"></script>
+		<script type="text/javascript" src="{{asset('scripts/widgEditor.js')}}"></script>
 	</head>
 	<body>
         @extends('layouts.admin')
