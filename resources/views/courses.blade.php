@@ -160,7 +160,7 @@
                                             @foreach($courses as $course)
                                                 <div class="card col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn" style="width: 350px; height: 300px">
                                                     <div class="card-body">
-                                                        <a href="/one_course/{{$course->id}}"><img src="images/courses/course1.jpg" style="width: 350px; height: 200px" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+                                                        <a href="/one_course/{{$course->id}}"><img src="{{asset('images/courses/course1.jpg')}}" style="width: 350px; height: 200px" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
                                                             <!--<span style="color: black">عرض الكورس</span>-->
                                                         </a><br>
                                                         <h3 style="color: white">{{$course->name}}</h3><br>
